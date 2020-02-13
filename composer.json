@@ -1,0 +1,21 @@
+{
+    "name": "mcdev/components",
+    "authors": [
+        {
+            "name": "Marcel Cunha",
+            "email": "marcel.cunha.mc@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MCDev\\Components\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MCDev\\Components\\Providers\\ComponentServiceProvider"
+            ]
+        }
+    }
+}
